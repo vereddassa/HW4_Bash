@@ -1,0 +1,6 @@
+1. We think it will take around 10 minutes. We need to open the source of every article, then search "Gantz" and "Netanyahu", and then save the results. 
+
+2. We would want to use Bash scripts when there is a repetetive action that needs to be done such as checking every packet in a wireshark capture for a specific size in a specific feild.
+We learned that by using Bash scripting we can work quicker and with more efficancy.
+
+3. In order to run the script every hour we can use the watch command. To avoid searching the same article twich we can use the grep -v command and delete the links we already searched in previous runs.
